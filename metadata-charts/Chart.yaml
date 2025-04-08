@@ -1,0 +1,5 @@
+apiVersion: v2
+name: ec2-metadata-chart
+description: A Helm chart to deploy the EC2 metadata fetcher container with bash access
+version: 0.1.0
+

@@ -1,0 +1,7 @@
+image:
+  repository: suni46/ec2-metadata-fetcher
+  tag: latest
+  pullPolicy: IfNotPresent
+
+containerName: ec2-metadata
+
