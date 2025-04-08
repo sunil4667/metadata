@@ -1,0 +1,12 @@
+FROM alpine:latest
+
+RUN apk add --no-cache bash curl
+
+WORKDIR /app
+
+COPY metadata.sh .
+
+RUN chmod +x metadata.sh
+
+ENTRYPOINT ["./metadata.sh"]
+
